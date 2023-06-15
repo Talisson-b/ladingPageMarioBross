@@ -1,0 +1,32 @@
+@use 'header';
+@use 'about';
+@use 'faq';
+@use 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    
+}
+
+body {
+    background-color: #021535;
+}
+
+
+.button {
+    padding: 8px 24px;
+    background-color: red;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid red;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: lighten(red, 15%);
+    }
+}

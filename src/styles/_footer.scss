@@ -1,0 +1,32 @@
+.containerFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5.6vw;
+    .containerImg{
+        
+       img {
+            max-width: 72px;
+            margin: 0 auto;
+       }
+     
+    }
+    p {
+        color: #C0C0C0;
+        margin-top: 32px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        font-weight: 400;
+       }
+
+       .socialLinks {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+            a {
+                font-size: 32px;
+                color: white;
+            }
+       }
+}
